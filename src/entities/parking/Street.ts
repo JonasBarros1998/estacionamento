@@ -1,5 +1,5 @@
 class Street {
-  static valid(street: string) {
+  static valid(street: string): string {
     const map = new Map();
     map.set('null', false);
     map.set('undefined', false);
